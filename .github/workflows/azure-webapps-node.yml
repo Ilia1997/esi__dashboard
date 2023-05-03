@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'esi-one-front-end-dev'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_13b75b8281694a0a94e8009a3dad09bb }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
